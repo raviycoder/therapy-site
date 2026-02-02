@@ -143,7 +143,7 @@ export default function Accordion({
                   className={cn(
                     "absolute bg-primary transition-all duration-300 ease-in-out origin-center",
                     styles.verticalLine,
-                    isOpen(index) ? "rotate-90 scale-0" : "rotate-0 scale-100",
+                    isOpen(index) ? "-rotate-90" : "rotate-0",
                   )}
                 ></div>
               </div>

@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import About from "@/components/sections/About";
 import Hero from "@/components/sections/Hero";
 import Services from "@/components/sections/Services";
@@ -6,6 +7,7 @@ import Support from "@/components/sections/Support";
 import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
 import ProfessionalBackground from "@/components/sections/ProfessionalBackground";
+import CTA from "@/components/sections/CTA";
 
 export default function Home() {
   return (
@@ -25,6 +27,8 @@ export default function Home() {
       <Contact />
       <FAQ />
       <ProfessionalBackground />
+      <CTA />
+      <Footer />
     </main>
   );
 }
