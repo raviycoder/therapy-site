@@ -12,7 +12,7 @@ export default function CTA() {
             className="text-[32px] md:text-[43.648px] font-medium text-[#FBF6F1] mb-6"
             style={{ lineHeight: "1.1" }}
           >
-            Get started today.
+            Reconnect with yourself.
           </h2>
         </FadeIn>
 
@@ -21,9 +21,9 @@ export default function CTA() {
             className="text-[16px] md:text-[19.6864px] font-medium text-[#FBF6F1] mb-12 max-w-[650px]"
             style={{ lineHeight: "1.6" }}
           >
-            Ready to take the first step towards a happier, healthier you?
-            Contact me to book your first session. I look forward to starting
-            this therapeutic journey with you.
+            You don't have to keep pushing through the stress. Therapy can be
+            the space you need to slow down, find your footing, and embrace a
+            more sustainable way of living.
           </p>
         </FadeIn>
 
@@ -33,7 +33,7 @@ export default function CTA() {
             variant="outline"
             className="border-[#FBF6F1] text-[#FBF6F1] hover:bg-[#FBF6F1] hover:text-[#223614] border-[0.8px] px-[28px] py-[14px] h-auto text-[14.1568px] uppercase tracking-wide"
           >
-            GET IN TOUCH
+            CONTACT ME
           </Button>
         </FadeIn>
       </div>

@@ -17,7 +17,7 @@ export default function About() {
               className="text-[52.864px] font-medium text-primary mb-[32px]"
               style={{ lineHeight: "58.3619px" }}
             >
-              Live a fulfilling life.
+              A warm, collaborative approach to healing.
             </h2>
           </FadeIn>
 
@@ -27,12 +27,16 @@ export default function About() {
               style={{ lineHeight: "31.4982px" }}
             >
               <p>
-                Life can be challenging—especially when you&apos;re trying to
-                balance your personal and professional life.
+                I help high-achievers who feel functional on the outside but are
+                quietly struggling with worry and exhaustion. My practice is a
+                safe haven to navigate anxiety, trauma, and the pressure to be
+                perfect.
               </p>
               <p>
-                It&apos;s easy to feel like you&apos;re alone in facing these
-                challenges, but I want you to know that I&apos;m here to help.
+                Using evidence-based methods like CBT, EMDR, and mindfulness,
+                we’ll work together to understand your experiences and build
+                resilience—helping you find relief and a deeper, kinder
+                relationship with yourself.
               </p>
             </div>
           </FadeIn>
@@ -41,7 +45,7 @@ export default function About() {
         {/* Button at Bottom - Full Width */}
         <FadeIn delay={300}>
           <Button variant="full" href="#contact">
-            GET IN TOUCH
+            LEARN MORE
           </Button>
         </FadeIn>
       </div>

@@ -13,7 +13,7 @@ export default function Footer() {
                 className="text-[32px] md:text-[43.648px] font-medium text-[#223614]"
                 style={{ lineHeight: "1.2" }}
               >
-                Lilac Template
+                Dr. Maya Reynolds, PsyD
               </h3>
 
               <div className="space-y-6">
@@ -22,30 +22,30 @@ export default function Footer() {
                     className="text-[19.6864px] text-[#223614]"
                     style={{ lineHeight: "31.4982px" }}
                   >
-                    123 Example Road
+                    123th Street 45 W
                   </p>
                   <p
                     className="text-[19.6864px] text-[#223614]"
                     style={{ lineHeight: "31.4982px" }}
                   >
-                    Minneapolis, MN
+                    Santa Monica, CA 90401
                   </p>
                 </div>
 
                 <div className="space-y-0">
                   <a
-                    href="mailto:email@example.com"
+                    href="mailto:contact@drmayareynolds.com"
                     className="block text-[19.6864px] text-[#223614] underline decoration-1 underline-offset-4 hover:opacity-70 transition-opacity"
                     style={{ lineHeight: "31.4982px" }}
                   >
-                    email@example.com
+                    contact@drmayareynolds.com
                   </a>
                   <a
-                    href="tel:5555555555"
+                    href="tel:5551234567"
                     className="block text-[19.6864px] text-[#223614] underline decoration-1 underline-offset-4 hover:opacity-70 transition-opacity"
                     style={{ lineHeight: "31.4982px" }}
                   >
-                    (555) 555-5555
+                    (555) 123-4567
                   </a>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function Footer() {
                   className="text-[19.6864px] text-[#223614]"
                   style={{ lineHeight: "31.4982px" }}
                 >
-                  10am – 6pm
+                  9am – 5pm
                 </p>
               </div>
             </FadeIn>
@@ -95,18 +95,18 @@ export default function Footer() {
                   Home
                 </a>
                 <a
+                  href="#about"
+                  className="text-[19.6864px] text-[#223614] underline decoration-1 underline-offset-4 hover:opacity-70 transition-opacity"
+                  style={{ lineHeight: "31.4982px" }}
+                >
+                  About
+                </a>
+                <a
                   href="#contact"
                   className="text-[19.6864px] text-[#223614] underline decoration-1 underline-offset-4 hover:opacity-70 transition-opacity"
                   style={{ lineHeight: "31.4982px" }}
                 >
                   Contact
-                </a>
-                <a
-                  href="#blog"
-                  className="text-[19.6864px] text-[#223614] underline decoration-1 underline-offset-4 hover:opacity-70 transition-opacity"
-                  style={{ lineHeight: "31.4982px" }}
-                >
-                  Blog
                 </a>
               </nav>
             </FadeIn>
@@ -169,7 +169,7 @@ export default function Footer() {
                 className="text-[16.6864px] text-[#223614]"
                 style={{ lineHeight: "31.4982px" }}
               >
-                All Rights Reserved © 2024 Your Business Name Here, LLC.
+                All Rights Reserved © 2024 Dr. Maya Reynolds, PsyD.
               </p>
             </div>
           </div>

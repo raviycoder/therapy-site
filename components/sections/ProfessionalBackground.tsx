@@ -5,17 +5,17 @@ const backgroundData: AccordionItem[] = [
   {
     question: "Education",
     answer:
-      "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.",
+      "Psy.D. in Clinical Psychology from Pepperdine University. B.A. in Psychology from UCLA. Specialization in Trauma and Anxiety disorders.",
   },
   {
     question: "Licensure",
     answer:
-      "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.",
+      "Licensed Clinical Psychologist in California (PSY 12345). Certified EMDR Therapist. Member of the American Psychological Association (APA).",
   },
   {
-    question: "Certifications",
+    question: "Specialized Training",
     answer:
-      "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.",
+      "Advanced training in EMDR (Eye Movement Desensitization and Reprocessing), Cognitive Behavioral Therapy (CBT), and Mindfulness-Based Stress Reduction (MBSR).",
   },
 ];
 

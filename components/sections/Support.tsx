@@ -28,7 +28,8 @@ export default function Support() {
               className="text-[52.864px] font-medium text-primary mb-[32px]"
               style={{ lineHeight: "58.3619px" }}
             >
-              You don't have to do this all <em className="italic">alone.</em>
+              You don't have to carry the weight{" "}
+              <em className="italic">alone.</em>
             </h2>
           </FadeIn>
 
@@ -38,7 +39,8 @@ export default function Support() {
               className="text-[19.6864px] font-normal text-primary mb-[37.3px]"
               style={{ lineHeight: "31.4982px" }}
             >
-              If you are facing any of these, there's hope:
+              Many of my clients feel "functional" on the outside but are
+              silently struggling with:
             </p>
           </FadeIn>
 
@@ -48,11 +50,11 @@ export default function Support() {
               className="text-[19.6864px] font-normal text-primary mb-[42.5px] pl-[57.6px] list-disc"
               style={{ lineHeight: "41.4982px" }}
             >
-              <li>Persistent feelings of sadness or hopelessness</li>
-              <li>Trouble focusing or making decisions</li>
-              <li>Difficulty maintaining relationships</li>
-              <li>Feeling constantly exhausted or unmotivated</li>
-              <li>A pervasive sense of being overwhelmed</li>
+              <li>Constant worry and overthinking</li>
+              <li>Feeling emotionally on edge or tense</li>
+              <li>Difficulty sleeping or relaxing</li>
+              <li>Professional burnout and perfectionism</li>
+              <li>Lingering effects of past experiences</li>
             </ul>
           </FadeIn>
 
@@ -62,8 +64,9 @@ export default function Support() {
               className="text-[19.6864px] font-normal text-primary"
               style={{ lineHeight: "31.4982px" }}
             >
-              With empathy and guidance, we'll work together to navigate the
-              challenges life throws your way.
+              Sessions are structured to feel supportive, leaving space for
+              reflection. We'll work together to help you feel more regulated in
+              your daily life.
             </p>
           </FadeIn>
         </div>

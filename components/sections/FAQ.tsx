@@ -6,16 +6,29 @@ import FadeIn from "../ui/FadeIn";
 
 const faqData: AccordionItem[] = [
   {
-    question: "Do you take insurance?",
-    answer: "Answer goes here.",
+    question: "What is your approach to therapy?",
+    answer:
+      "I combine warm, supportive reflection with practical, evidence-based methods like CBT, EMDR, and mindfulness to help you find insight and relief.",
   },
   {
-    question: "What are your rates?",
-    answer: "Answer goes here.",
+    question: "Do you offer online or in-person sessions?",
+    answer:
+      "Both. I offer in-person sessions at my Santa Monica office and secure telehealth for clients anywhere in California.",
   },
   {
-    question: "Do you have any openings?",
-    answer: "Answer goes here.",
+    question: "What is EMDR and how does it help?",
+    answer:
+      "EMDR is a therapy that helps process traumatic memories, reducing the lingering emotional and physical distress from past experiences.",
+  },
+  {
+    question: "Do you work with high-achieving professionals?",
+    answer:
+      "Yes. I understand the pressures of fast-paced environments and specialize in helping entrepreneurs and creatives navigate burnout and perfectionism.",
+  },
+  {
+    question: "How do I get started?",
+    answer:
+      "Simply reach out to schedule a consultation. We’ll discuss your needs and ensure we’re a good fit before moving forward.",
   },
 ];
 

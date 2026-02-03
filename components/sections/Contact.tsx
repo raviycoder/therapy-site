@@ -16,7 +16,7 @@ export default function Contact() {
               className="text-[32px] md:text-[44px] lg:text-[52.864px] font-medium text-primary mb-4 md:mb-6 lg:mb-[32px]"
               style={{ lineHeight: "1.1" }}
             >
-              Hi, I'm Lilac.
+              Hi, I'm Dr. Maya.
             </h2>
           </FadeIn>
 
@@ -25,10 +25,10 @@ export default function Contact() {
               className="text-[15px] md:text-[17px] lg:text-[19.6864px] font-normal text-primary mb-8 md:mb-10 lg:mb-12 max-w-[645px]"
               style={{ lineHeight: "1.6" }}
             >
-              I&apos;m committed to providing a safe and supportive environment
-              where we can explore your thoughts, feelings, and behaviors. With
-              empathy and guidance, we&apos;ll work together to navigate the
-              challenges life throws your way.
+              My Santa Monica office is a quiet, grounding space where you can
+              feel safe to explore your thoughts. Whether you're here for trauma
+              work or to navigate life's pressures, I'm here to support you with
+              empathy and expertise.
             </p>
           </FadeIn>
 
@@ -39,7 +39,7 @@ export default function Contact() {
                 href="#contact"
                 className="px-[28.31px] py-[14.15px] border-[0.8px] text-[13px] md:text-[14.15px] uppercase tracking-widest hover:bg-primary hover:text-secondary"
               >
-                LET&apos;S CHAT
+                SCHEDULE A SESSION
               </Button>
             </div>
           </FadeIn>

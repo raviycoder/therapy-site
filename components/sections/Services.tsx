@@ -3,23 +3,23 @@ import FadeIn from "../ui/FadeIn";
 
 const specialties = [
   {
-    title: "Self-Esteem",
+    title: "Anxiety Therapy",
     description:
-      "Building a strong sense of self-worth is key to living a fulfilled life. Let's work together to bolster your self-esteem.",
+      "Tools to manage panic, reduce tension, and stop overthinking, so you can feel more present and at ease.",
     image: "/images/image3.webp",
     angle: "object-left",
   },
   {
-    title: "Relationships",
+    title: "Trauma & EMDR",
     description:
-      "Navigating relationships can be complex. I'm here to guide you through these complexities to help you form healthier connections.",
+      "A safe, stabilized space to process past experiences and complex history, helping you feel regulated and safe daily.",
     image: "/images/image5.webp",
     angle: "object-bottom-right",
   },
   {
-    title: "Burnout",
+    title: "Burnout & Perfectionism",
     description:
-      "Feeling overwhelmed by your career is more common than you think. Together, we'll identify strategies to manage and prevent burnout.",
+      "For high-achievers feeling disconnected. We'll find sustainable ways to live and work so you can slow down.",
     image: "/images/image4.webp",
     angle: "object-center",
   },
