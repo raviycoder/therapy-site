@@ -21,7 +21,7 @@ const faqData: AccordionItem[] = [
 
 export default function FAQ() {
   return (
-    <section id="faq" className="bg-[#FBF6F1] relative overflow-hidden">
+    <section id="faq" className="bg-background relative overflow-hidden">
       <div className="flex flex-col lg:flex-row max-w-[1536px] mx-auto py-16 lg:py-[101px] px-6 md:px-12 lg:px-[57.6px] gap-12 lg:gap-16 justify-end">
         {/* Left Side - Arch Image */}
         <FadeIn className="w-full lg:w-[38%] mx-auto lg:mx-0" delay={0}>

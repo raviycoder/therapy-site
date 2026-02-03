@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer>
       {/* Main Footer - #FBF6F1 */}
-      <div className="bg-[#FBF6F1] py-[50.7px] px-6 md:px-12 lg:px-[57.6px] mb-15">
+      <div className="bg-background py-[50.7px] px-6 md:px-12 lg:px-[57.6px] pb-25">
         <div className="max-w-[1536px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8">
             {/* Left Column - Branding & Contact (Approx 50% width -> 6 cols) */}
@@ -116,7 +116,7 @@ export default function Footer() {
 
       {/* Bottom Footer - #E5E0DA */}
       <FadeIn delay={300}>
-        <div className="bg-[#E5E0DA] py-[15.4px] px-6 md:px-12 lg:px-[57.6px]">
+        <div className="bg-background-light py-[15.4px] px-6 md:px-12 lg:px-[57.6px]">
           <div className="max-w-[1536px] mx-auto flex flex-col items-center text-center space-y-4">
             {/* Policy Links */}
             <div className="flex flex-col gap-y-4 my-12">

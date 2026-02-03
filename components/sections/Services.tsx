@@ -42,7 +42,7 @@ export default function Services() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px]">
         {specialties.map((specialty, index) => (
           <FadeIn key={index} delay={100 + index * 150}>
-            <div className="bg-[#E5E0DA] border-[0.8px] border-primary p-[20px] flex flex-col h-full">
+            <div className="bg-background-light border-[0.8px] border-primary p-[20px] flex flex-col h-full">
               {/* Card Title */}
               <h3
                 className="text-[19.6864px] font-normal text-primary mb-0"

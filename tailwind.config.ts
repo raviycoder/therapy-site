@@ -9,15 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#3d4a3d",
-        secondary: "#5a6b5a",
-        accent: "#8b9a7d",
-        background: "#f7f4f0",
-        foreground: "#3d4a3d",
+        primary: "#085444",
+        secondary: "#223614",
+        accent: "#4f3405",
+        background: "#c1c1c1",
+        foreground: "#223614",
       },
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
-        serif: ["var(--font-cormorant)", "Georgia", "serif"],
+        serif: ["var(--font-cormorant)", "Plus Jakarta Sans", "serif"],
       },
     },
   },

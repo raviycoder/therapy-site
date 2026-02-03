@@ -4,7 +4,10 @@ import FadeIn from "../ui/FadeIn";
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-[#E5E0DA] relative overflow-hidden">
+    <section
+      id="contact"
+      className="bg-background-light relative overflow-hidden"
+    >
       <div className="flex flex-col lg:flex-row max-w-[1536px] mx-auto px-6 md:px-12 lg:px-[57.6px] py-12 lg:py-[101px]">
         {/* Left Side - Text Content */}
         <div className="w-full lg:w-1/2 px-6 md:px-12 lg:pl-[117.25px] flex flex-col justify-center order-2 lg:order-1">
@@ -34,7 +37,7 @@ export default function Contact() {
               <Button
                 variant="outline"
                 href="#contact"
-                className="px-[28.31px] py-[14.15px] border-[0.8px] text-[13px] md:text-[14.15px] uppercase tracking-widest hover:bg-primary hover:text-[#E5E0DA]"
+                className="px-[28.31px] py-[14.15px] border-[0.8px] text-[13px] md:text-[14.15px] uppercase tracking-widest hover:bg-primary hover:text-secondary"
               >
                 LET&apos;S CHAT
               </Button>

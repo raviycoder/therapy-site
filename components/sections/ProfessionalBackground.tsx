@@ -23,7 +23,7 @@ export default function ProfessionalBackground() {
   return (
     <section
       id="professional-background"
-      className="bg-[#E5E0DA] relative overflow-hidden"
+      className="bg-background-light relative overflow-hidden"
     >
       <div className="max-w-[1536px] mx-auto py-16 lg:py-[101px] px-6 md:px-12 lg:px-[57.6px]">
         {/* Section Heading */}

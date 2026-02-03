@@ -5,7 +5,7 @@ import FadeIn from "../ui/FadeIn";
 
 export default function CTA() {
   return (
-    <section className="bg-[#7E7B46] px-6 md:px-12 lg:px-[57.6px] py-[100px] lg:py-[151px]">
+    <section className="bg-accent px-6 md:px-12 lg:px-[57.6px] py-[100px] lg:py-[151px]">
       <div className="max-w-[700px] mx-auto text-center flex flex-col items-center">
         <FadeIn delay={0}>
           <h2

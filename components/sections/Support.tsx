@@ -19,7 +19,7 @@ export default function Support() {
       </FadeIn>
 
       {/* Right Side - Content with Lavender Background */}
-      <div className="lg:w-1/2 bg-[#C2BFCB] flex flex-col justify-between">
+      <div className="lg:w-1/2 bg-accent-200 flex flex-col justify-between">
         {/* Text Content Area */}
         <div className="px-[57.6px] pt-[72px] pb-[72px] flex-1 flex flex-col justify-center">
           {/* Main Heading */}

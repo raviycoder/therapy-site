@@ -4,7 +4,10 @@ import FadeIn from "../ui/FadeIn";
 
 export default function About() {
   return (
-    <section id="about" className="flex flex-col lg:flex-row bg-[#E5E0DA]">
+    <section
+      id="about"
+      className="flex flex-col lg:flex-row bg-background-light"
+    >
       {/* Left Side - Text Content + Button */}
       <div className="lg:w-1/2 flex flex-col justify-between">
         {/* Text Content Area */}

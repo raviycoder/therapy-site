@@ -23,7 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" href="https://use.typekit.net/neo7pnl.css"/>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Plus Jakarta Sans"
+        />
       </head>
       <body className={`${cormorant.variable} antialiased`}>{children}</body>
     </html>
