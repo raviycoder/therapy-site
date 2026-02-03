@@ -48,7 +48,7 @@ export default function Accordion({
       icon: "w-4 h-4 mr-5",
       horizontalLine: "w-full h-[0.5px]",
       verticalLine: "h-full w-[0.5px]",
-      answerPadding: "pb-4 px-34",
+      answerPadding: "pb-4 md:px-34",
     },
     medium: {
       question: "text-[24px] md:text-[32px]",
@@ -96,14 +96,14 @@ export default function Accordion({
                 {/* Horizontal line */}
                 <div
                   className={cn(
-                    "absolute bg-primary transition-all duration-300 ease-in-out",
+                    "absolute bg-primary transition-all duration-500 ease-in-out",
                     styles.horizontalLine,
                   )}
                 ></div>
                 {/* Vertical line (animates to minus) */}
                 <div
                   className={cn(
-                    "absolute bg-primary transition-all duration-300 ease-in-out origin-center",
+                    "absolute bg-primary transition-all duration-500 ease-in-out origin-center",
                     styles.verticalLine,
                     isOpen(index) ? "-rotate-90" : "rotate-0",
                   )}
@@ -134,14 +134,14 @@ export default function Accordion({
                 {/* Horizontal line */}
                 <div
                   className={cn(
-                    "absolute bg-primary transition-all duration-300 ease-in-out",
+                    "absolute bg-primary transition-all duration-500 ease-in-out",
                     styles.horizontalLine,
                   )}
                 ></div>
                 {/* Vertical line (animates to minus) */}
                 <div
                   className={cn(
-                    "absolute bg-primary transition-all duration-300 ease-in-out origin-center",
+                    "absolute bg-primary transition-all duration-500 ease-in-out origin-center",
                     styles.verticalLine,
                     isOpen(index) ? "-rotate-90" : "rotate-0",
                   )}
