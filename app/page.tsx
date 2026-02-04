@@ -8,23 +8,25 @@ import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
 import ProfessionalBackground from "@/components/sections/ProfessionalBackground";
 import CTA from "@/components/sections/CTA";
+import Office from "@/components/sections/Office";
 
 export default function Home() {
   return (
     <main>
       <Navbar />
       <Hero
-        heading="Live your life in full bloom"
-        subheading="Therapy for Adults in Minneapolis, MN."
-        ctaText="CONNECT WITH ME"
+        heading="Therapy for High-Achieving Adults in Santa Monica"
+        subheading="Find a safe, grounded space to release tension, heal from the past, and reconnect with your true self."
+        ctaText="BOOK A FREE CONSULTATION"
         ctaHref="#contact"
-        imageSrc="/image1.png"
-        imageAlt="Person holding lilac flowers"
+        imageSrc="/images2/image1.webp"
+        imageAlt="Dr. Maya Reynolds, Psychologist"
       />
       <About />
       <Services />
       <Support />
       <Contact />
+      <Office />
       <FAQ />
       <ProfessionalBackground />
       <CTA />

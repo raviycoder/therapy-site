@@ -6,21 +6,21 @@ const specialties = [
     title: "Anxiety Therapy",
     description:
       "Tools to manage panic, reduce tension, and stop overthinking, so you can feel more present and at ease.",
-    image: "/images/image3.webp",
+    image: "/images2/image3.webp",
     angle: "object-left",
   },
   {
     title: "Trauma & EMDR",
     description:
       "A safe, stabilized space to process past experiences and complex history, helping you feel regulated and safe daily.",
-    image: "/images/image5.webp",
+    image: "/images2/image4.webp",
     angle: "object-bottom-right",
   },
   {
     title: "Burnout & Perfectionism",
     description:
       "For high-achievers feeling disconnected. We'll find sustainable ways to live and work so you can slow down.",
-    image: "/images/image4.webp",
+    image: "/images2/image5.webp",
     angle: "object-center",
   },
 ];

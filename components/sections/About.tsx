@@ -53,7 +53,7 @@ export default function About() {
       {/* Right Side - Image */}
       <FadeIn className="lg:w-1/2 relative min-h-[700px]" delay={200}>
         <Image
-          src="/images/image2.webp"
+          src="/images2/image2.webp"
           alt="Coffee, flowers and notebook on fabric"
           fill
           className="object-cover"

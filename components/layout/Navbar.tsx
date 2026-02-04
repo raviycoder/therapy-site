@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 export default function Navbar() {
@@ -53,7 +54,7 @@ export default function Navbar() {
     <>
       <nav
         className={cn(
-          "fixed top-0 left-0 right-0 z-60 flex items-center justify-between px-6 md:px-[57.6px] py-[15px] md:py-[12.36px] transition-all duration-500 ease-in-out",
+          "fixed top-0 left-0 right-0 z-60 flex items-center justify-between px-6 md:px-14 py-4 md:py-3 transition-all duration-500 ease-in-out",
           isScrolled
             ? "bg-background/95 backdrop-blur-sm shadow-sm"
             : "bg-background",
@@ -62,9 +63,10 @@ export default function Navbar() {
       >
         {/* Mobile: Hamburger / Close Button (Left) */}
         <button
-          className="md:hidden flex flex-col justify-center items-center w-[25px] h-[25px] group z-60 relative"
+          className="md:hidden flex flex-col justify-center items-center w-6 h-6 group z-60 relative"
           onClick={() => setIsOpen(!isOpen)}
           aria-label={isOpen ? "Close menu" : "Open menu"}
+          aria-expanded={isOpen}
         >
           {/* Line 1 - Top line that rotates to form X */}
           <span
@@ -83,29 +85,28 @@ export default function Navbar() {
         </button>
 
         {/* Desktop: Logo (Left) */}
-        <a
+        <Link
           href="#"
-          className="hidden md:block text-[34.432px] font-medium text-primary"
-          style={{ lineHeight: "41.3184px" }}
+          className="hidden md:block text-4xl font-medium text-primary leading-tight"
         >
           Lilac Template
-        </a>
+        </Link>
 
         {/* Mobile: Logo (Right) */}
-        <a href="#" className="md:hidden text-[20px] font-bold text-primary">
+        <Link href="#" className="md:hidden text-xl font-bold text-primary">
           Lilac Template
-        </a>
+        </Link>
 
         {/* Desktop: Links (Right) */}
-        <div className="hidden md:flex gap-[45px] text-[19.7px] font-normal">
+        <div className="hidden md:flex gap-11 text-xl font-normal">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.name}
               href={link.href}
-              className="text-primary py-[1.96px] hover:opacity-70 transition-opacity"
+              className="text-primary py-0.5 hover:opacity-70 transition-opacity"
             >
               {link.name}
-            </a>
+            </Link>
           ))}
         </div>
       </nav>
@@ -113,11 +114,12 @@ export default function Navbar() {
       {/* Mobile Menu Overlay - Comes from BOTTOM */}
       <div
         className={cn(
-          "fixed inset-0 bg-[#FBF6F1] z-50 flex flex-col transition-all duration-500 ease-in-out",
+          "fixed inset-0 bg-background z-50 flex flex-col transition-all duration-500 ease-in-out",
           isOpen
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-full pointer-events-none",
         )}
+        aria-hidden={!isOpen}
       >
         {/* Header (Hidden, since the main navbar is visible on top) */}
         <div className="flex items-center justify-between px-6 py-[15px] invisible pointer-events-none">
@@ -125,22 +127,20 @@ export default function Navbar() {
           <div className="w-[25px]"></div>
 
           {/* Logo (Right) - Duplicate for spacing */}
-          <div className="text-[20px] font-bold text-primary">
-            Lilac Template
-          </div>
+          <div className="text-xl font-bold text-primary">Lilac Template</div>
         </div>
 
         {/* Menu Links - Centered */}
         <div className="flex-1 flex flex-col items-center justify-center gap-8 pb-20">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.name}
               href={link.href}
-              className="text-[40px] font-medium text-primary hover:opacity-70 transition-opacity"
+              className="text-4xl font-medium text-primary hover:opacity-70 transition-opacity"
               onClick={() => setIsOpen(false)}
             >
               {link.name}
-            </a>
+            </Link>
           ))}
         </div>
       </div>

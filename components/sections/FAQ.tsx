@@ -19,17 +19,7 @@ const faqData: AccordionItem[] = [
     question: "What is EMDR and how does it help?",
     answer:
       "EMDR is a therapy that helps process traumatic memories, reducing the lingering emotional and physical distress from past experiences.",
-  },
-  {
-    question: "Do you work with high-achieving professionals?",
-    answer:
-      "Yes. I understand the pressures of fast-paced environments and specialize in helping entrepreneurs and creatives navigate burnout and perfectionism.",
-  },
-  {
-    question: "How do I get started?",
-    answer:
-      "Simply reach out to schedule a consultation. We’ll discuss your needs and ensure we’re a good fit before moving forward.",
-  },
+  }
 ];
 
 export default function FAQ() {
@@ -40,7 +30,7 @@ export default function FAQ() {
         <FadeIn className="w-full lg:w-[38%] mx-auto lg:mx-0" delay={0}>
           <div className="relative w-full max-w-[460px] h-[500px] md:h-[600px] lg:h-[690px] rounded-t-[500px] md:rounded-t-[600px] lg:rounded-t-[800px] overflow-hidden">
             <Image
-              src="/images/image10.webp"
+              src="/images2/image6.webp"
               alt="Lavender flowers in soft focus"
               fill
               className="object-cover"

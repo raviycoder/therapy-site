@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
@@ -39,9 +40,9 @@ export default function Button({
 
   if (href) {
     return (
-      <a href={href} className={combinedClassName}>
+      <Link href={href} className={combinedClassName}>
         {content}
-      </a>
+      </Link>
     );
   }
 

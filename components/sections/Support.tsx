@@ -11,10 +11,10 @@ export default function Support() {
         delay={0}
       >
         <Image
-          src="/images/image6.webp"
+          src="/images2/image7.webp"
           alt="Person looking up with hope"
           fill
-          className="object-cover"
+          className="object-cover object-bottom"
         />
       </FadeIn>
 

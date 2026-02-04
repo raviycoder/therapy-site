@@ -53,7 +53,7 @@ export default function Contact() {
             delay={100}
           >
             <Image
-              src="/images/image7.webp"
+              src="/images2/image8.webp"
               alt="Woman with lilac flowers hiding face"
               fill
               className="object-cover"
@@ -67,7 +67,7 @@ export default function Contact() {
             delay={250}
           >
             <Image
-              src="/images/image8.webp"
+              src="/images2/image9.webp"
               alt="White lilac flowers close up"
               fill
               className="object-cover"
