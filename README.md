@@ -62,7 +62,7 @@ This is a professional therapy practice website featuring a warm, elegant design
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/raviycoder/therapy-site.git
    cd therapy-site
    ```
 
@@ -189,18 +189,6 @@ Place images in the `public/images2/` directory and reference them with `/images
 - Global styles: `app/globals.css`
 - Tailwind configuration: `tailwind.config.ts`
 - Component-specific styles: Use Tailwind utility classes
-
-## 📄 License
-
-This project is private and proprietary.
-
-## 🤝 Contributing
-
-This is a private project. For questions or support, please contact the repository owner.
-
-## 📞 Support
-
-For issues or questions about this codebase, please open an issue in the repository or contact the development team.
 
 ---
 
